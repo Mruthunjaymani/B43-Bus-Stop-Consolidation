@@ -1,0 +1,2 @@
+total_stops,kept_stops,eliminated_stops,avg_cost_across_scenarios,baseline_cost,cost_savings,percent_savings,baseline_travel_time,optimized_travel_time,time_savings_seconds,time_savings_minutes
+50,35,15,36299.50871299516,39073.5002155716,1285.760397934122,3.2906199619703376,3696.1482130199997,3574.5220220983533,121.62619092164641,2.02710318202744
