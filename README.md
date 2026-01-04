@@ -51,13 +51,13 @@ This ensures the selected set of stops performs well under different ridership r
 - Binary variable indicating whether a bus stop is **kept or removed**
 
 ### Objective
-- Minimize average scenario cost = (In-vehicle travel time cost + Walking cost)
+- Minimize Z = Average Scenario Cost
 
 ### Key Constraints
-- Direction-specific optimization (Northbound and Southbound)
-- Consistent stop selection across all scenarios
-- Operational feasibility of remaining stops
-
+- Minimum Number of Stops = 35
+- Consecutive Stops Cannot be removed
+- Walking Distance must be less than 400 meters to the closest stop if a stop has been closed
+- First and last stops must be kept
 ---
 
 ## Results
